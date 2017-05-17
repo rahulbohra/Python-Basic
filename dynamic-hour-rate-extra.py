@@ -5,9 +5,8 @@ r = float(rate)
 
 if hrs <= 40 :
     print hrs * rate
-
-if hrs > 40 :
-    hrsDiff = h - 40.00
-    basicValue = 40.00 * r
+else :
+    hrsDiff = h - 40
+    basicValue = 40 * r
     extraValue = hrsDiff * (1.5 * r)
     print basicValue + extraValue
