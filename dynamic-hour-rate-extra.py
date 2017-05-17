@@ -1,6 +1,6 @@
-hrs = raw_input("Enter Hours:")
+hrs = raw_input("Enter Hours : ")
 h = float(hrs)
-rate = raw_input("Enter Rate")
+rate = raw_input("Enter Rate : ")
 r = float(rate)
 
 if hrs <= 40 :
