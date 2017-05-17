@@ -1,12 +1,16 @@
-hrs = raw_input("Enter Hours : ")
-h = float(hrs)
-rate = raw_input("Enter Rate : ")
-r = float(rate)
 
-if hrs <= 40 :
-    print hrs * rate
+try :
+    hoursInput = raw_input("Enter Hours : ")
+    hours = float(hoursInput)
+    rateInput = raw_input("Enter Rate : ")
+    rate = float(rateInput)
+except :
+    print "Please enter numberic values only"
+
+if hours <= 40 :
+    print hours * rate
 else :
-    hrsDiff = h - 40
-    basicValue = 40 * r
-    extraValue = hrsDiff * (1.5 * r)
-    print basicValue + extraValue
+    hoursDifference = hours - 40
+    baseValue = 40 * rate
+    extraValue = hoursDifference * (1.5 * rate)
+    print baseValue + extraValue
