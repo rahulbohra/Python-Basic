@@ -1,3 +1,4 @@
+# Looking for a needle in hackstack, in a loop
 data = [12,4,21,56,01,42,76,93]
 print data
 print '\nScript starts\n'
