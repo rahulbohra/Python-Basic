@@ -20,7 +20,7 @@ firstTwoChars = musketeersName[:2]
 print 'First Two characters of the string :', firstTwoChars
 
 lastTwoChars = musketeersName[12:]
-print 'First Two characters of the string :', lastTwoChars
+print 'Last Two characters of the string :', lastTwoChars
 
 allChars = musketeersName[:]
 print 'All characters of the string :', allChars
