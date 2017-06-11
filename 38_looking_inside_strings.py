@@ -25,3 +25,5 @@ for letter in fruit:
     if letter == 'a':
         count += 1
 print "Number of A's in fruit is", count
+
+print len('banana')*7
