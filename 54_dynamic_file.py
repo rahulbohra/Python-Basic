@@ -1,7 +1,12 @@
 fileName = raw_input('Enter a filename :')
-openFile = open(fileName)
+try:
+    openFile = open(fileName)
+except:
+    print "File cannot be open :", fileName
+    exit()
+
 count = 0
 for line in openFile:
     if line.startswith('Subject:'):
         count += 1
-print "There are", count, "line starts with", fileName
+print "There were", count, "subject lines in", fileName
