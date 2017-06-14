@@ -11,6 +11,7 @@ Then print out a count at the end.
 Hint: make sure not to include the lines that start with 'From:'.
 '''
 fileName = raw_input("Enter file name : ")
+# Below line is Guardian Pattern
 if len(fileName) < 1 : fileName = "sample.txt"
 
 openFile = open(fileName)
