@@ -5,4 +5,6 @@ for line in openFile:
     if line.startswith('From:'):
         count += 1
         print line
-print "Number of lines having 'From:' are :", count
+        #email = line[6:]
+        #print email
+print "Number of lines starts with 'From:' are :", count
