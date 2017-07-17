@@ -13,8 +13,12 @@ Hint: make sure not to include the lines that start with 'From:'.
 fileName = raw_input("Enter file name : ")
 # Below line is Guardian Pattern
 if len(fileName) < 1 : fileName = "sample.txt"
+try :
+    openFile = open(fileName)
+except :
+    print "File not found :", fileName
+    exit()
 
-openFile = open(fileName)
 count = 0
 words = list()
 
