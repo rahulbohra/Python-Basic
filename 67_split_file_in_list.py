@@ -5,4 +5,5 @@ for line in openFile:
         continue
     mainLine = line.split()
     email = mainLine[1].split("@")
+    # Print domain name
     print email[1]
