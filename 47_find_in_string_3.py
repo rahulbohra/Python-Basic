@@ -7,7 +7,7 @@ Desired Output:
 '''
 text = "X-DSPAM-Confidence:    0.8475";
 findWord = text.find('0.8475')
-getOutput = float(text[findWord :])
+getOutput = float(text[findWord:])
 
 print 'Position :', findWord
 print 'Type of output :', type(getOutput)
