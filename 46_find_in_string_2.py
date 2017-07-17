@@ -2,6 +2,7 @@ emailHeader = 'From rahulmbohra@gmail.com Sun June 11th 2017 21:48:00'
 findAtTheRate = emailHeader.find('@')
 print 'At The Rate is at position :', findAtTheRate
 
+# Find "space" after the position (findAtTheRate), the second parameter of find()
 firstSpace = emailHeader.find(' ',findAtTheRate)
 print 'First Space is at position :', firstSpace
 
